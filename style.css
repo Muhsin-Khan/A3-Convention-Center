@@ -29,4 +29,11 @@
 }
 .border-radius{
     border-radius: 25px;
+    justify-content: center;
+}
+.width{
+    width: 95%;
+}
+.footer-image{
+    width: 20%;
 }
