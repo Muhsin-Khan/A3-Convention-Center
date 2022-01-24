@@ -35,7 +35,7 @@
             <div class="carousel-item active">
             <img src="images/slide-1.png" class="d-block w-100" alt="...">
             <div class="background" ></div>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption  d-md-block">
               <h2 class="h1 mb-3">The fantastic convention center <br> is waiting for your next event</h2>
               <p >The esthetic and pollution free area for your congregration, party program, corporate <br> meeting and many more function you can manage with this enjoyable place. <br> Book for your next function or event.</p>
               <div class="slider-btn">
@@ -47,7 +47,7 @@
           <div class="carousel-item">
             <img src="images/slide-2.png" class="d-block w-100" alt="...">
             <div class="background" ></div>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption  d-md-block">
                 <h2 class="h1 mb-3">The fantastic convention center <br> is waiting for your next event</h2>
                 <p >The esthetic and pollution free area for your congregration, party program, corporate <br> meeting and many more function you can manage with this enjoyable place. <br> Book for your next function or event.</p>
                 <div class="slider-btn">
@@ -58,7 +58,7 @@
           <div class="carousel-item">
             <img src="images/slide-3.png" class="d-block w-100" alt="...">
             <div class="background" ></div>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption  d-md-block">
                 <h2 class="h1 mb-3">The fantastic convention center <br> is waiting for your next event</h2>
                 <p >The esthetic and pollution free area for your congregration, party program, corporate <br> meeting and many more function you can manage with this enjoyable place. <br> Book for your next function or event.</p>
                 <div class="slider-btn">
@@ -69,7 +69,7 @@
           <div class="carousel-item">
             <img src="images/slide-4.png" class="d-block w-100" alt="...">
             <div class="background" ></div>
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-md-block">
                 <h2 class="h1 mb-3">The fantastic convention center <br> is waiting for your next event</h2>
                 <p >The esthetic and pollution free area for your congregration, party program, corporate <br> meeting and many more function you can manage with this enjoyable place. <br> Book for your next function or event.</p>
                 <div class="slider-btn">
@@ -166,7 +166,11 @@
                   Collumn-3 (Special) 
                                      ------->
         <div class="col ps-5 pe-5 bg-primary text-light border-radius">
-          <div class="card border-0 h-100 bg-danger">
+            <div class="card border-0 h-100 bg-primary">
+            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger fw-bold">
+              Hot
+              <span class="visually-hidden">unread messages</span>
+            </span>
             <div class="card-body">
               <h2 class="card-title mb-3 fw-bold">$800</h2>
               <h3 class="card-title mb-3 fw-bold ">Wedding Plus</h3>
@@ -192,10 +196,9 @@
                 Per day bil
               </div> 
             </div>
-            <div class="card-footer border-0 pb-4 ps-0 bg-white m-auto ">
-              <a class="btn rounded-pill btn-primary ps-5 pe-5 fw-" href="#" role="button">Choose Plan</a>
-              
-            </div>
+            <button class="mb-4 p-2 rounded-pill border-0">
+              <a class="text-decoration-none fw-bold" href="#">Choose Plan</a>
+            </button>
           </div>
         </div>
         <!-- Collumn-4 -->
@@ -315,23 +318,19 @@
         </div>
 
     </section>
-    <footer id="sticky-footer" class=" flex-shrink-0 py-4 bg-dark text-white-50">
-      <div class="justify-content-between row align-items-center row-cols-1 row-cols-md-4 g-0">
-        <div class=" w-50 text-center text-light">
-          <small>&copy;2022 Khan Convention Center,  All rights reserved</small>
-        </div>
-        <div class="row w-50 ps-3">
-          <h5 class="h5 text-light fw-light ms-3 mb-0 pb-0">Get the app</h5>
-          <div class="">
-            <a href=" https://play.google.com/store/apps/details?id=com.adobe.lrmobile&hl=en&gl=US" target="_blank"><div><img class="footer-image p-3" src="App Button Image/Android.png" alt=""></div></a>
-          </div>
-          <div>
-            <a href="https://apps.apple.com/us/app/backgammon-plus/id647916664" target="_blank"><div><img class="footer-image p-3" src="App Button Image/Apple.png" alt=""></div></a>
-          </div>
-        </div>
-      </div>
-      
-    </footer>
+   <footer class="py-5 text-light bg-dark container-fluid">
+     <div class="d-flex justify-content-evenly container">
+       <div class="d-flex align-item-center ">
+         <p class="pt-5 mt-2">©2022 Khan Convention Center, All rights reserved</p>
+       </div>
+       <div class="d-flex flex-column">
+         <p>Get the App</p>
+         <a href="https://play.google.com/store/apps/details?id=com.adobe.creativeapps.gather&hl=en&gl=US" target="blank"><img class="py-2" width="130px" src="App Button Image/Android.png" alt=""></a>
+        <a href="https://apps.apple.com/us/story/id1593260312?itscg=10000&itsct=" target="blank"><img class="py-2" width="130px" src="App Button Image/Apple.png" alt=""></a>
+        
+       </div>
+     </div>
+   </footer>
     
     <!-- Boootstrap Script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
